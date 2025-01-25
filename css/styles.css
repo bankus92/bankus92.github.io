@@ -1,17 +1,19 @@
 /* Basic styles for HTML */
+html {
+  background-image: linear-gradient(darkslategray, gray);
+}
+
 html,
 body {
   margin: auto;
   text-align: center;
-  font-weight: 50;
-  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
-  background-color: slategray;
+  font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
   margin-bottom: 142px;
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
+  color: navy;
+  font: bolder;
 }
 
 a:hover {
