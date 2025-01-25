@@ -1,0 +1,45 @@
+/* Basic styles for HTML */
+html,
+body {
+  margin: 20px;
+  padding: 20px;
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  background-color: darkslategray;
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 20px 0 10px;
+  padding: 0.5em 0;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+}
