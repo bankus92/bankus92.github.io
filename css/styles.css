@@ -1,23 +1,31 @@
 /* Basic styles for HTML */
 html {
+  margin-bottom: 5%;
   background-image: linear-gradient(darkslategray, gray);
 }
 
 html,
 body {
-  margin: auto;
   text-align: center;
-  font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
-  margin-bottom: 142px;
+  font-family: Verdana, Tahoma, sans-serif;
+  margin-bottom: 150px;
 }
 
 a {
   color: navy;
-  font: bolder;
+}
+
+a:visited {
+  color: purple;
 }
 
 a:hover {
   text-decoration: underline;
+  color: red;
+}
+
+a:active {
+  color: yellow;
 }
 
 h1,
@@ -26,22 +34,27 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 30px;
-  padding: 30px;
+  margin: auto;
+}
+
+div {
+  margin: 1%;
+  padding: 1%;
 }
 
 p {
-  margin: 30px;
+  margin: 1%;
 }
 
 ul,
 ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  border-radius: 10px;
+  border: 2px solid black;
+  list-style: disc;
 }
 
 img {
+  border-radius: 5px;
   text-align: center;
   max-width: 200px;
   height: 200px;
@@ -54,9 +67,11 @@ img {
 }
 
 .site-footer {
+  border-radius: 10px;
+  border: 1px solid black;
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 142px;
+  height: auto;
   background: gray;
 }
