@@ -58,8 +58,10 @@ ul,
 ol {
   text-align: justify;
   font-size: larger;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 20px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 10px;
   border: 2px solid black;
 }
