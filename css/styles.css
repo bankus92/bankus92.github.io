@@ -69,8 +69,7 @@ ol {
 img {
   border-radius: 10px;
   text-align: center;
-  max-width: 200px;
-  height: 200px;
+  height: 300px;
 }
 
 .rounded-image {
