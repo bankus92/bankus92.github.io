@@ -1,12 +1,16 @@
 /* Basic styles for HTML */
 html {
-  margin-bottom: 5%;
+  color: black;
+  background-color: gray;
+  margin-left: 10%;
+  margin-right: 10%;
   background-image: linear-gradient(darkslategray, gray);
 }
 
 html,
 body {
   text-align: center;
+  font-size: medium;
   font-family: Verdana, Tahoma, sans-serif;
   margin-bottom: 150px;
 }
@@ -26,6 +30,10 @@ a:hover {
 
 a:active {
   color: yellow;
+}
+
+h1 {
+  font-size: xx-large;
 }
 
 h1,
@@ -48,13 +56,16 @@ p {
 
 ul,
 ol {
+  text-align: justify;
+  font-size: larger;
+  margin-left: 10%;
+  margin-right: 10%;
   border-radius: 10px;
   border: 2px solid black;
-  list-style: disc;
 }
 
 img {
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
   max-width: 200px;
   height: 200px;
@@ -71,7 +82,14 @@ img {
   border: 1px solid black;
   position: fixed;
   bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   height: auto;
   background: gray;
+}
+
+.headline {
+  font-family: "Gill Sans";
+  font-weight: bold;
 }
