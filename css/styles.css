@@ -12,7 +12,11 @@ body {
   text-align: center;
   font-size: medium;
   font-family: Verdana, Tahoma, sans-serif;
-  margin-bottom: 150px;
+}
+
+body {
+  margin-bottom: 300px;
+  margin-top: 100px;
 }
 
 a {
@@ -50,6 +54,18 @@ div {
   padding: 1%;
 }
 
+#left-port-img {
+  text-align: center;
+}
+
+#cent-port-img {
+  text-align: center;
+}
+
+#right-port-img {
+  text-align: center;
+}
+
 p {
   margin: 1%;
 }
@@ -67,9 +83,38 @@ ol {
 }
 
 img {
+  margin-top: 1cap;
   border-radius: 10px;
   text-align: center;
-  height: 300px;
+  height: 20cap;
+}
+
+#red-border {
+  border: 2px solid red;
+  width: 200px;
+}
+
+#white-border {
+  width: 200px;
+  border: 2px solid white;
+}
+
+#blue-border {
+  width: 200px;
+  border: 2px solid blue;
+}
+
+.container {
+  align-items: center;
+  width: 900px;
+}
+
+img {
+  margin: 10px;
+}
+
+p {
+  font-size: 18px;
 }
 
 .rounded-image {
@@ -79,6 +124,7 @@ img {
 }
 
 .site-footer {
+  text-align: center;
   border-radius: 10px;
   border: 1px solid black;
   position: fixed;
